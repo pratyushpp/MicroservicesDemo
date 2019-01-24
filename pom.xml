@@ -20,13 +20,13 @@
 
 	<groupId>com.stackroute</groupId>
 
-	<artifactId>zuulservice</artifactId>
+	<artifactId>parent-pom</artifactId>
 
 	<version>0.0.1-SNAPSHOT</version>
 
-	<name>zuulservice</name>
+	<name>parent-pom</name>
 
-	<description>Demo project for Spring Boot</description>
+	<description>creating parent pom.</description>
 
 
 
@@ -58,13 +58,13 @@
 
 		<!--</dependency>-->
 
-		<dependency>
+		<!--<dependency>
 
 		<groupId>org.springframework.cloud</groupId>
 
 		<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
 
-		</dependency>
+		</dependency> 
 
 		<dependency>
 
@@ -84,7 +84,7 @@
 
 			<scope>test</scope>
 
-		</dependency>
+		</dependency> -->
 
 		<!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-actuator -->
 
@@ -98,13 +98,13 @@
 
 		</dependency>
 
-		<dependency>
+		<!-- <dependency>
 
 			<groupId>org.springframework.boot</groupId>
 
 			<artifactId>spring-boot-starter-data-rest</artifactId>
 
-		</dependency>
+		</dependency> -->
 
 
 
