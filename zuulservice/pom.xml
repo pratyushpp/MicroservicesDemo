@@ -8,11 +8,11 @@
 
 	<parent>
 
-		<groupId>org.springframework.boot</groupId>
+		<groupId>com.stackroute</groupId>
 
-		<artifactId>spring-boot-starter-parent</artifactId>
+		<artifactId>parent-pom</artifactId>
 
-		<version>2.1.2.RELEASE</version>
+		
 
 		<relativePath/> <!-- lookup parent from repository -->
 
