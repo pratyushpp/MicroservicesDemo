@@ -6,17 +6,20 @@ public class PostFilter extends ZuulFilter
 {
 
     @Override
-    public String filterType() {
+    public String filterType()
+    {
         return "post";
     }
 
     @Override
-    public int filterOrder() {
+    public int filterOrder()
+    {
         return 1;
     }
 
     @Override
-    public boolean shouldFilter() {
+    public boolean shouldFilter()
+    {
         return true;
     }
 

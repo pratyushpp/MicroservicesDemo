@@ -6,14 +6,22 @@ import com.stackroute.zuulservice.filter.PreFilter;
 import com.stackroute.zuulservice.filter.RouteFilter;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 import org.springframework.cloud.netflix.zuul.EnableZuulProxy;
 import org.springframework.context.annotation.Bean;
 
 @SpringBootApplication
 @EnableZuulProxy
+<<<<<<< HEAD
+public class ZuulserviceApplication
+{
+=======
+@EnableEurekaClient
 public class ZuulserviceApplication {
+>>>>>>> a54c5fde124d1acd189a55f44766b10f5c4f0aaa
 
 	public static void main(String[] args)
+
 	{
 		SpringApplication.run(ZuulserviceApplication.class, args);
 	}
